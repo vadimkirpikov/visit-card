@@ -1,0 +1,56 @@
+# Gradle
+.gradle/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+**/local.properties
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Keystore (не загружайте ключи в репозиторий!)
+*.jks
+*.keystore
+
+# Log files
+*.log
+
+# Android Studio specific
+captures/
+.externalNativeBuild/
+.cxx/
+*.hprof
+
+# APKs
+*.apk
+*.aab
+
+# Generated files
+*.class
+*.dex
+*.so
+*.o
+*.obj
+*.jar
+*.war
+*.ear
+
+# NDK
+obj/
+bin/
+.gen/
+
+# Flutter (если используется)
+.flutter-plugins
+.flutter-plugins-dependencies
+.melos/
+dart_tool/
+
+# Jetpack Compose
+compose-samples/build/
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
